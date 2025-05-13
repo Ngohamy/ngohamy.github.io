@@ -81,6 +81,13 @@ To make the prediction process transparent and explorable, users can adjust each
 
 Behind the scenes, the tool is powered by a trained Random Forest regression model and a standardized input pipeline. 
 
+#Disclamer 
+The visualization below was originally built as a live Bokeh server app, meaning that all predictions were computed dynamically in Python each time the sliders changed. However, because this site is statically hosted, we can only embed a static snapshot of the app using HTML.
+
+As a result, the interactive prediction no longer functions in this embedded version — the sliders move, but no new price is calculated.
+
+We should have relised that this was not possible sooner before we put a lot of work into making it work but we hope you can see how we made the model and evaluated it in the collab and see some value in it.
+
 <iframe
   src="{{ '/assets/bokeh/copenhagen_price_projects_ml.html' | relative_url }}"
   width="100%"
