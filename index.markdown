@@ -29,17 +29,32 @@ Explore the interactive chart below by hovering over data points or muting speci
 
 ## What Might Make Districts Desirable?
 
-Besides macroeconomic factors like interest rates or inflation, the local environment can also influence housing demand — and thereby prices.
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
 
-To explore this, the following map visualizes the concentration of different types of facilities across Copenhagen’s districts.
+  <!-- Left Column: Map -->
+  <div style="flex: 2; min-width: 400px;">
+    <iframe 
+      src="{{ '/assets/bokeh/district_poi_map.html' | relative_url }}" 
+      width="100%" 
+      height="700" 
+      frameborder="0" 
+      loading="lazy">
+    </iframe>
+  </div>
 
-You can use the dropdown to switch between different types of points of interest. Districts with less of a selected category appear darker on the map.
+  <!-- Right Column: Text -->
+  <div style="flex: 1; min-width: 300px; max-width: 500px; margin-top: 6rem;">
+    <p>
+      Besides macroeconomic factors like interest rates or inflation, the local environment can also influence housing demand — and thereby prices.
+    </p>
+    <p>
+      To explore this, the following map visualizes the concentration of different types of facilities across Copenhagen’s districts.
+    </p>
+    <p>
+      You can use the dropdown to switch between different types of points of interest. Districts with fewer places in a selected category appear lighter on the map.
+    </p>
+  </div>
+
+</div>
 
 
-<iframe 
-  src="{{ '/assets/bokeh/district_poi_map.html' | relative_url }}" 
-  width="100%" 
-  height="600" 
-  frameborder="0" 
-  loading="lazy">
-</iframe>
