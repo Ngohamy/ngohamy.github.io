@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Housing Prices and Urban Renewal Projects in Copenhagen
+title: Housing Prices in Copenhagen
 description: >- # this means to ignore newlines until "baseurl:"
   This is the page for the Final Project for 02806 Social Data Analysis and Visualization at DTU.
 baseurl: "" # the subpath of your site, e.g. /blog

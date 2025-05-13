@@ -5,7 +5,11 @@ title: Home
 
 # Welcome
 
-This site explores housing prices in Copenhagen.
+What Shapes Housing Prices in Copenhagen?
+
+This site explores how housing prices have changed across Copenhagen and what might be driving those changes. From major renewal projects to the everyday amenities that make a district feel like home, we take a closer look at the patterns behind property values.
+
+Explore the maps, interact with the charts, and see what might be shaping the city!
 
 ## Inflation-Adjusted Housing Price Trends
 
