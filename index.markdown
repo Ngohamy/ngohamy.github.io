@@ -73,3 +73,12 @@ The story unfolds differently in each district — some see dramatic price incre
   frameborder="0"
   loading="lazy">
 </iframe>
+
+
+<iframe
+  src="{{ '/assets/bokeh/copenhagen_price_projects_ml.html' | relative_url }}"
+  width="100%"
+  height="700"
+  frameborder="0"
+  loading="lazy">
+</iframe>
