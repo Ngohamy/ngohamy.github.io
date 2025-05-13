@@ -5,7 +5,7 @@ title: Home
 
 # Welcome
 
-This site explores the relationship between housing prices and urban renewal projects in Copenhagen.
+This site explores housing prices in Copenhagen.
 
 ## Inflation-Adjusted Housing Price Trends
 
@@ -21,6 +21,23 @@ Explore the interactive chart below by hovering over data points or muting speci
 
 <iframe 
   src="{{ '/assets/bokeh/inflation_adjusted_price_trends.html' | relative_url }}" 
+  width="100%" 
+  height="600" 
+  frameborder="0" 
+  loading="lazy">
+</iframe>
+
+## What Might Make Districts Desirable?
+
+Besides macroeconomic factors like interest rates or inflation, the local environment can also influence housing demand — and thereby prices.
+
+To explore this, the following map visualizes the concentration of different types of facilities across Copenhagen’s districts.
+
+You can use the dropdown to switch between different types of points of interest. Districts with less of a selected category appear darker on the map.
+
+
+<iframe 
+  src="{{ '/assets/bokeh/district_poi_map.html' | relative_url }}" 
   width="100%" 
   height="600" 
   frameborder="0" 
