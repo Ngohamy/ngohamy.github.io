@@ -75,6 +75,11 @@ The story unfolds differently in each district — some see dramatic price incre
 </iframe>
 
 ## Prediction of housing price with regression
+This section introduces an interactive tool that predicts apartment prices across Copenhagen using a machine learning model trained on historical housing data. The model considers four key features: apartment size (sqm), number of rooms, construction year, and postal code.
+
+To make the prediction process transparent and explorable, users can adjust each of these inputs via sliders and immediately see how the predicted price changes. The corresponding district on the map is also highlighted to give spatial context to the estimate.
+
+Behind the scenes, the tool is powered by a trained Random Forest regression model and a standardized input pipeline. 
 
 <iframe
   src="{{ '/assets/bokeh/copenhagen_price_projects_ml.html' | relative_url }}"
