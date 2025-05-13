@@ -74,6 +74,7 @@ The story unfolds differently in each district — some see dramatic price incre
   loading="lazy">
 </iframe>
 
+## Prediction of housing price with regression
 
 <iframe
   src="{{ '/assets/bokeh/copenhagen_price_projects_ml.html' | relative_url }}"
