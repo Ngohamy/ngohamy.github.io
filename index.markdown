@@ -29,22 +29,6 @@ Explore the interactive chart below by hovering over data points or muting speci
   loading="lazy">
 </iframe>
 
-## Tracking Attractions and Housing Prices (2008-2017)
-
-As Copenhagen emerged from the financial crisis, both housing markets and urban amenities underwent significant transformation. This visualization reveals how these two elements evolved together during a pivotal decade.
-
-Watch as attractions (blue dots) appear across the city while district colors shift to reflect changing housing prices. Notice how central areas maintain their premium status while price increases gradually ripple outward to once-affordable neighborhoods.
-
-The story unfolds differently in each district — some see dramatic price increases despite few new attractions, while others develop a rich concentration of amenities that coincides with rising property values.
-
-<iframe 
-  src="{{ '/assets/bokeh/copenhagen_housing_attractions.html' | relative_url }}"
-  width="100%"
-  height="650"
-  frameborder="0"
-  loading="lazy">
-</iframe>
-
 ## What Might Make Districts Desirable?
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
@@ -72,3 +56,20 @@ The story unfolds differently in each district — some see dramatic price incre
     </p>
   </div>
 </div>
+
+
+## Tracking Attractions and Housing Prices (2008-2017)
+
+As Copenhagen emerged from the financial crisis, both housing markets and urban amenities underwent significant transformation. This visualization reveals how these two elements evolved together during a pivotal decade.
+
+Watch as attractions (blue dots) appear across the city while district colors shift to reflect changing housing prices. Notice how central areas maintain their premium status while price increases gradually ripple outward to once-affordable neighborhoods.
+
+The story unfolds differently in each district — some see dramatic price increases despite few new attractions, while others develop a rich concentration of amenities that coincides with rising property values.
+
+<iframe 
+  src="{{ '/assets/bokeh/copenhagen_housing_attractions.html' | relative_url }}"
+  width="100%"
+  height="650"
+  frameborder="0"
+  loading="lazy">
+</iframe>
